@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    font-family: 'Exo', sans-serif;
+    font-family: 'Mukta', sans-serif;
+}
+
+.encuesta{
+    background-color: #778090;
+    color: rgb(255, 255, 255);
+    width: 100vw;
+    height: 100vh;
+}
+
+.box{
+    display:flex;    
+}
+
+.complete{
+    font-size: 200%;
+    text-align: center;
+    padding: 2em;
+    background-image: url('./sigp.png');
+    background-size: 10%;
+}
+
+#fondo{
+    background-color: #778090;
+}
+
+.options{
+    width: 50%;
+    height: 70%;
+    text-align: center;
+}
+
+p{
+    padding: 1em;
+    font-size: 150%;
+}
+
+.inputs{
+    border: 0;
+    padding: 1em;
+    margin: 0 15em;
+    border-radius: 15px;
+    background-color: #4c4f5a;
+    color: rgb(192, 189, 189);
+    
+}
+
+.probando{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+select{
+    color: rgb(192, 189, 189);
+}
+
+.inputs::placeholder{
+    color: rgb(192, 189, 189);
+}
+
+button{
+    border: none;
+    padding: 1em 2em;
+    margin: 3em;
+    color: rgb(192, 189, 189);
+    background-color: #2d3744;
+    border-radius: 20px;
+}
+
+.results-box{
+    width: 50%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.resultado{
+    padding: 1em 3em;
+    border-radius: 20px;
+    background-color: #2d3744;
+    color: #fff;
+    margin: 6em; 
+}

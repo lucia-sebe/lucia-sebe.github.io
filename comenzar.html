@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="comenzar.css">
+
+    <title>Reecorrido 🚘</title>
+</head>
+<body>
+    <main class="encuesta">
+        
+         <header class="complete">
+             <h1 id='fondo'>Complete las siguientes preguntas:</h1>
+         </header>
+         
+        <div class="box">
+            <form class="options" action="">
+             
+             <p>¿Cuál es el rendimiento por litro de su vehículo?</p>
+             <input class="inputs" id="rendimiento" type="number" placeholder="Rendimiento (km/l)">
+             
+             <p>¿Qué cantidad de kilometros va a recorrer?</p>
+             <input class="inputs" id="recorrido" type="number" placeholder="Recorrido (km)">
+             
+             <p>¿Cual de estos combustible va a utilizar?</p>
+             <select class="inputs" id="combustible">
+                 <option disabled selected >Seleccione una opción</option>
+                 <option value="65.81">Nafta Super 95</option>
+                 <option value="67.74">Nafta Premium 97</option>
+                 <option value="67.87">Gasoil 10-S</option>
+                 <option value="45.7"> Gasoil 50-S</option>
+                </select>
+
+             <button type="button" onclick="calcula()">Calcular</button>
+                
+            </form>
+       
+
+            <div class="results-box">
+                <span class="resultado">Costo del viaje($)</span>
+                <output class="resultado">Cantidad de litros(L) </output>
+            </div>
+
+          </div> 
+            
+        </main>
+
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    color: #ffff;
+    font-family: 'Exo', sans-serif;
+    font-family: 'Mukta', sans-serif;
+}
+
+.all{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./siq.jpg');
+    background-size: 100%;
+}
+
+.title{
+    width: 100%;
+    height: 60%;
+    text-align: center;
+    font-size: 300%;
+    margin: 15px 0px 0px;
+ 
+ 
+}
+
+.button{
+    width: 100%;
+    height: 40%;
+    text-align: center;
+    
+}
+
+#comenzar{
+    padding: 0.5em 2.5em;
+    background-color: #333a42;
+    border-radius: 8px;
+    margin: 4em 0;
+    font-size: 100%;
+}
+
+.text{
+    padding-top: 0.5em ;
+}
